@@ -1,6 +1,6 @@
 # terraform-aws-state-mgmt
 
-Terraform remote state management module. Uses Terraform versions - 0.12 and above.
+Terraform AWS remote state management module. Uses Terraform versions - 0.12 and above.
 
 ## Why
 
