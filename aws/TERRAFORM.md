@@ -3,11 +3,12 @@
 
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-----:|:-----:|
-| tf_bucket_name | Terraform bucket name | string |  | yes |
-| lock_table_name | Terraform lock table name | string | `""` | no |
+| state_bucket_name | Terraform bucket name | string |  | yes |
+| create_log_bucket | Boolean flag to decide whether to create log bucket or not | bool | `true` | no |
 | versioning_config | Terraform bucket versioning config | object | `null` | no |
 | logging_config | Terraform bucket logging config | object | `null` | no |
-| force_destroy_state_buckets | Boolean flag to prevent force destroy of state buckets through Terraform console | string | `false` | no |
+| force_destroy | Boolean flag to prevent force destroy buckets | bool | `false` | no |
+| lock_table_name | Terraform lock table name | string | `""` | no |
 | lock_table_read_capacity | Terraform lock table read capacity | string | `1` | no |
 | lock_table_write_capacity | Terraform lock table write capacity | string | `1` | no |
 | lock_table_hash_key | Terraform lock table hash key | string | `LockID` | no |
@@ -17,5 +18,6 @@
 
 | Name | Description |
 |------|-------------|
-| tf_bucket | Terraform bucket object |
+| tf_state_bucket | Terraform state bucket object |
+| tf_log_bucket | Terraform log bucket object |
 | tf_lock_table | Terraform lock table object |
