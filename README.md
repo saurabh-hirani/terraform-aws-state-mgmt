@@ -4,12 +4,11 @@ Terraform remote state management module. Uses Terraform versions - 0.12 and abo
 
 ## Why
 
-Remote state is the preferred way of managing state in Terraform. The first step
-of creating Terraform infrastructure involves creating the remote state S3 bucket
-in AWS. However, this step is mostly done **manually** and is not uniformly done
-across projects i.e. some state buckets have versioning enabled, some have logging
-enabled, etc. This module aims to have a standard, uniform way of creating Terraform
-remote state S3 buckets catering to a variety of options.
+[Remote state](https://www.terraform.io/docs/state/remote.html) is the preferred way of managing infra state in
+Terraform. The first step of creating Terraform infrastructure involves creating the remote state S3 bucket in AWS.
+However, this step is mostly done **manually** and is not uniformly done across projects i.e. some state buckets
+have versioning enabled, some have logging enabled, etc. This module aims to have a standard, uniform way of creating
+Terraform remote state S3 buckets catering to a variety of options.
 
 ### Different ways of creating AWS remote state
 
