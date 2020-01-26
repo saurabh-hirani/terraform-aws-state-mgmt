@@ -46,14 +46,14 @@ This module aims to give the user flexiblity to do option 5 in a uniform way.
 
 ### Talk is cheap - show me the code
 
-1. Input variables to this module are described in [TERRAFORM.md](https://github.com/saurabh-hirani/tf_state_mgmt/blob/master/aws/TERRAFORM.md)
-2. [Sample repo](https://github.com/saurabh-hirani/tf_state_mgmt_sample_infra) using **S3 + versioning + logging + locking setup** of this module.
+1. Input variables to this module are described in [TERRAFORM.md](./TERRAFORM.md)
+2. [Sample repo](https://github.com/saurabh-hirani/terraform-aws-state-mgmt-sample-infra) using **S3 + versioning + logging + locking setup** of this module.
 3. Examples in this repo:
-   * [Simple s3 state](https://github.com/saurabh-hirani/tf_state_mgmt/tree/master/aws/examples/s3)
-   * [S3 + versioning](https://github.com/saurabh-hirani/tf_state_mgmt/tree/master/aws/examples/s3_versioning)
-   * [S3 + versioning + logging](https://github.com/saurabh-hirani/tf_state_mgmt/tree/master/aws/examples/s3_versioning_logging) - this example
+   * [Simple s3 state](./examples/s3)
+   * [S3 + versioning](./examples/s3_versioning)
+   * [S3 + versioning + logging](./examples/s3_versioning_logging) - this example
      shows logging to both - an existing log bucket and creating a new log bucket.
-   * [S3 + versioning + logging + locking](https://github.com/saurabh-hirani/tf_state_mgmt/tree/master/aws/examples/s3_versioning_logging_locking)
+   * [S3 + versioning + logging + locking](./examples/s3_versioning_logging_locking)
 
 ### How to build this module
 
