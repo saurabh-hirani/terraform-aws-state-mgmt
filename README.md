@@ -57,7 +57,7 @@ This module aims to give the user flexiblity to do option 5 in a uniform way.
 
 ### How to release newer versions of this module
 
-This module uses a simple [Rakefile](https://github.com/saurabh-hirani/tf_state_mgmt/blob/master/Rakefile) and a [VERSION](https://github.com/saurabh-hirani/tf_state_mgmt/blob/master/VERSION)
+This module uses a simple [Rakefile](./Rakefile) and a [VERSION](./VERSION)
 file for following [semantic versioning](https://semver.org/).
 
 1. To release a patch version of this module:
