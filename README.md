@@ -55,7 +55,7 @@ This module aims to give the user flexiblity to do option 5 in a uniform way.
      shows logging to both - an existing log bucket and creating a new log bucket.
    * [S3 + versioning + logging + locking](./examples/s3_versioning_logging_locking)
 
-### How to build this module
+### How to release newer versions of this module
 
 This module uses a simple [Rakefile](https://github.com/saurabh-hirani/tf_state_mgmt/blob/master/Rakefile) and a [VERSION](https://github.com/saurabh-hirani/tf_state_mgmt/blob/master/VERSION)
 file for following [semantic versioning](https://semver.org/).
