@@ -2,7 +2,7 @@
 
 Terraform AWS remote state management module. Uses Terraform versions - 0.12 and above.
 
-## Why
+## Why?
 
 [Remote state](https://www.terraform.io/docs/state/remote.html) is the preferred way of managing infra state in
 Terraform. The first step of creating Terraform infrastructure involves creating the remote state S3 bucket in AWS.
