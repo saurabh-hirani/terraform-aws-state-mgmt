@@ -10,6 +10,9 @@ However, this step is mostly done **manually** and is not uniformly done across 
 have versioning enabled, some have logging enabled, etc. This module aims to have a standard, uniform way of creating
 Terraform remote state S3 buckets catering to a variety of options.
 
+As this module creates the state bucket which stores Terraform state for further infra, the **terraform.state** file
+for this infra isn't stored in S3. It has to be stored locally e.g. checking it into git.
+
 ### Different ways of creating AWS remote state
 
 1. Plain S3 bucket
